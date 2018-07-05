@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lelodois/my-config-apps
+          uri: https://github.com/lelodois/spring-cloud
