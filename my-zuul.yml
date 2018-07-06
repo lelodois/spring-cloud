@@ -19,12 +19,14 @@ zuul:
       path: /eureka/**
       url: http://localhost:9091
     eureka-conf:
-      path: /eureka/conf/**
+      path: /eureka-conf/**
       url: http://localhost:9090/my-eureka/default
     service:
       path: /service/**
       url: http://localhost:9093/microservice/status
     service-conf:
-      path: /service/conf/**
+      path: /service-conf/**
       url: http://localhost:9090/my-microservice/default
-       
+    zuul-conf:
+      path: /zuul-conf/**
+      url: http://localhost:9090/my-zuul/default
