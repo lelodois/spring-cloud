@@ -28,7 +28,7 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
 
     @Bean
     public Docket docketSwaggerBean() {
-        Predicate<RequestHandler> packages = RequestHandlerSelectors.basePackage("bñ temr.com.lelo.springcloud");
+        Predicate<RequestHandler> packages = RequestHandlerSelectors.basePackage("br.com.lelo.springcloud.myeurekaclient.controller");
         return new Docket(DocumentationType.SWAGGER_2).select().apis(packages).build();
     }
 }
