@@ -20,8 +20,11 @@ Projeto que registra os microserviços e monitora o status de cada
   -  http://localhost:9090/my-microservice/default
 ![Microservice](https://github.com/lelodois/spring-cloud/blob/master/images/my-microservice.png)
 
+#### MyZuul
+  Projeto de proxy para os serviços rest
+  - http://localhost:9090/my-zuul/default
 
 ### Microservice project
 
-Projeto de microserviços que se registra no github
+Projeto de microserviços que retorna um json com a quantidade de requests já realizados
 
