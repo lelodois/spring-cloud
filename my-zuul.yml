@@ -15,9 +15,6 @@ eureka:
 
 zuul:
   routes:
-    eureka:
-      path: /eureka/**
-      url: http://localhost:9091
     eureka-conf:
       path: /eureka-conf/**
       url: http://localhost:9090/my-eureka/default
@@ -27,9 +24,6 @@ zuul:
     service-conf:
       path: /service-conf/**
       url: http://localhost:9090/my-microservice/default
-    service-doc:
-      path: /service-doc/**
-      url: http://localhost:9093/swagger-ui.html
     zuul-conf:
       path: /zuul-conf/**
       url: http://localhost:9090/my-zuul/default
