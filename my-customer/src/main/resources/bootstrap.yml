@@ -1,6 +1,6 @@
 spring:
   application:
-    name: my-microservice
+    name: my-customer
   cloud:
     config:
       uri: http://localhost:9090

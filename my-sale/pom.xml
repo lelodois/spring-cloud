@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.lelo.springcloud</groupId>
-    <artifactId>my-microservice</artifactId>
+    <artifactId>my-sale</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>my-microservice</name>
+    <name>my-sale</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

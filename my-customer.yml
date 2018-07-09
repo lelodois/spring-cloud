@@ -1,5 +1,5 @@
 server:
-  port: 9092
+  port: 9094
 
 eureka:
   instance:
@@ -12,12 +12,3 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 3000
-
-zuul:
-  routes:
-    customer-all:
-      path: /customer/
-      url: http://localhost:9094/customer/
-    sale-last:
-      path: /sale/last
-      url: http://localhost:9093/sale/last
