@@ -1,7 +1,7 @@
-package br.com.lelo.springcloud.mydash.controller;
+package br.com.lelo.springcloud.myproduct.controller;
 
-import br.com.lelo.springcloud.mydash.model.SaleItemDto;
-import br.com.lelo.springcloud.mydash.services.DashService;
+import br.com.lelo.springcloud.mydash.model.Product;
+import br.com.lelo.springcloud.mydash.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("dash")
-public class DashController {
+@RequestMapping("product")
+public class ProductController {
 
     @Autowired
-    private DashService service;
+    private ProductService service;
 
-    @GetMapping("sale")
-    public ResponseEntity<List<SaleItemDto>> message() {
+    @GetMapping("all")
+    public ResponseEntity<List<Product>> message() {
         return ResponseEntity.ok(service.getList());
     }
 }

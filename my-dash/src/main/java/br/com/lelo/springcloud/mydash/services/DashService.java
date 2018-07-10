@@ -1,30 +1,18 @@
 package br.com.lelo.springcloud.mydash.services;
 
-import br.com.lelo.springcloud.mydash.model.Product;
-import com.google.common.collect.Lists;
+import br.com.lelo.springcloud.mydash.model.SaleItemDto;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
 @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
-public class ProductService {
+public class DashService {
 
-    private List<Product> list = Lists.newArrayList();
-
-    @PostConstruct
-    public void start() {
-        list.add(new Product(100l, "Coca cola 350 ml"));
-        list.add(new Product(48l, "Pepsi 350 ml"));
-        list.add(new Product(60l, "Refrigerante Itubaína 2lt"));
-        list = Collections.unmodifiableList(list);
-    }
-
-    public List<Product> getList() {
-        return list;
+    public List<SaleItemDto> getList() {
+        return new ArrayList<SaleItemDto>();
     }
 }
