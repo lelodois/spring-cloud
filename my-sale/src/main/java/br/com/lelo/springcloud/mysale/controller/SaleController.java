@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("sale")
+@RequestMapping("v4/sales")
 public class SaleController {
 
     @Autowired

@@ -15,9 +15,12 @@ eureka:
 
 zuul:
   routes:
-    customer:
+    product:
       path: /services/product/**
       url: http://localhost:9098/v5/products/enabled/all
+    customer:
+      path: /services/customer/**
+      url: http://localhost:9097/v8/customers/active/all
     sale:
       path: /services/sale/**
       url: http://localhost:9099/v4/sales/last
