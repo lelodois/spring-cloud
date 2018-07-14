@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: my-dash
-  cloud:
-    config:
-      uri: http://localhost:9090

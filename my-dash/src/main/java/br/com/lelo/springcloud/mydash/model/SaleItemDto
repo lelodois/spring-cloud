@@ -1,5 +1,0 @@
-package br.com.lelo.springcloud.mydash.model;
-
-public class SaleItemDto {
-
-}
