@@ -1,6 +1,6 @@
-package br.com.lelo.springcloud.mydash.services;
+package br.com.lelo.springcloud.myproduct.services;
 
-import br.com.lelo.springcloud.mydash.model.Product;
+import br.com.lelo.springcloud.myproduct.model.Product;
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

@@ -1,4 +1,4 @@
-package br.com.lelo.springcloud.mydash.model;
+package br.com.lelo.springcloud.myproduct.model;
 
 public class Product {
 

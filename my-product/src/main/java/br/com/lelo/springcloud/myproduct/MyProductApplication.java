@@ -1,4 +1,4 @@
-package br.com.lelo.springcloud.mydash;
+package br.com.lelo.springcloud.myproduct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

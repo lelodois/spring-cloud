@@ -1,7 +1,7 @@
 package br.com.lelo.springcloud.myproduct.controller;
 
-import br.com.lelo.springcloud.mydash.model.Product;
-import br.com.lelo.springcloud.mydash.services.ProductService;
+import br.com.lelo.springcloud.myproduct.model.Product;
+import br.com.lelo.springcloud.myproduct.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
