@@ -15,16 +15,16 @@ Projeto que registra os microserviços e monitora o status de cada
 ### Config server
 
 ![ConfigServer](https://github.com/lelodois/spring-cloud/blob/master/images/novas/configserver-diagrama.png)
-* Lê as configurações do github dos projetos abaixo:
 
-#### Configurações
+* Lê as configurações do github dos projetos abaixo:
   - http://localhost:9080/my-eureka/default
   - http://localhost:9080/my-customer/default
   - http://localhost:9080/my-product/default
   - http://localhost:9080/my-sale/default
   - http://localhost:9080/my-zuul/default
+  
 
-#### MyZuul
+#### Zuul
   Projeto de proxy para os serviços rest
   ![Zuul](https://github.com/lelodois/spring-cloud/blob/master/images/novas/comxsem-zuul.png)
 
