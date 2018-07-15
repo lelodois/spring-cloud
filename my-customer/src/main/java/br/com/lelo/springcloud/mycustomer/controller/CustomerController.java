@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("customer")
+@RequestMapping("v8/customers")
 public class CustomerController {
 
     @Autowired
     private CustomerService service;
 
-    @GetMapping("all")
+    @GetMapping("active/all")
     public ResponseEntity<List<Customer>> message() {
         return ResponseEntity.ok(service.getAll());
     }

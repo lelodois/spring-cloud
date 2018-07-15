@@ -1,10 +1,10 @@
 server:
-  port: 9092
+  port: 9070
 
 eureka:
   instance:
     hostname: localhost
-    port: 9091
+    port: 9090
   client:
     registerWithEureka: true
     fetchRegistry: false
@@ -17,7 +17,7 @@ zuul:
   routes:
     product:
       path: /services/product/**
-      url: http://localhost:9098/v5/products/enabled/all
+      url: http://localhost:9098/products/enabled/all
     customer:
       path: /services/customer/**
       url: http://localhost:9097/v8/customers/active/all
