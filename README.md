@@ -1,3 +1,5 @@
+https://medium.com/@locosta_61043/spring-cloud-netflix-organizando-seus-microservi%C3%A7os-5b89c443640c
+
 # Spring-cloud (my-config-server)
 
 Exemplo de configuração usando o spring cloud
