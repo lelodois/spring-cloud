@@ -7,6 +7,7 @@ Exemplo de configuração usando o spring cloud
 
 Projeto que registra os microserviços e monitora o status de cada
 ![Eureka](https://github.com/lelodois/spring-cloud/blob/master/images/novas/eureka.png)
+
 ![EurekaDiagrama](https://github.com/lelodois/spring-cloud/blob/master/images/novas/eureka-diagrama.png)
 
 ### Config server
@@ -14,7 +15,7 @@ Projeto que registra os microserviços e monitora o status de cada
 ![ConfigServer](https://github.com/lelodois/spring-cloud/blob/master/images/novas/configserver-diagrama.png)
 * Lê as configurações do github dos projetos abaixo:
 
-#### Configuraçes
+#### Configurações
   - http://localhost:9080/my-eureka/default
   - http://localhost:9080/my-customer/default
   - http://localhost:9080/my-product/default
@@ -30,6 +31,6 @@ Projeto que registra os microserviços e monitora o status de cada
 
 Projetos de microserviços que retorna um json via Rest
 
-https://github.com/lelodois/spring-cloud/tree/master/my-customer
-https://github.com/lelodois/spring-cloud/tree/master/my-product
-https://github.com/lelodois/spring-cloud/tree/master/my-sale
+- https://github.com/lelodois/spring-cloud/tree/master/my-customer
+- https://github.com/lelodois/spring-cloud/tree/master/my-product
+- https://github.com/lelodois/spring-cloud/tree/master/my-sale
